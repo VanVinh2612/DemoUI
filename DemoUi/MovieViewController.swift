@@ -9,15 +9,15 @@ import UIKit
 
 class MovieViewController: UIViewController {
 
-    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var moviesCollectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        collectionView.dataSource = self
-        collectionView.delegate = self
-        collectionView.collectionViewLayout = UICollectionViewFlowLayout()
+        moviesCollectionView.dataSource = self
+        moviesCollectionView.delegate = self
+        moviesCollectionView.collectionViewLayout = UICollectionViewFlowLayout()
     }
 
 }

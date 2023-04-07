@@ -7,19 +7,21 @@
 
 import UIKit
 
-class ListTourismViewController: UIViewController, UITableViewDataSource {
+class ListTourismViewController: UIViewController {
 
-    @IBOutlet weak var table: UITableView!
+    @IBOutlet weak var tourismTableView: UITableView!
     
-    
+    var rowNumber: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        table.dataSource = self
-        table.delegate = self
+        tourismTableView.dataSource = self
+        tourismTableView.delegate = self
 
-        // Do any additional setup after loading the view.
     }
+}
+
+extension ListTourismViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.count
@@ -27,7 +29,7 @@ class ListTourismViewController: UIViewController, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let tourism = data[indexPath.row]
-        let cell = table.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "TourismTableViewCell", for: indexPath) as! CustomTableViewCell
         cell.label.text = tourism.title
         cell.iconImageView.image = UIImage(named: tourism.imageName)
         return cell
@@ -35,10 +37,21 @@ class ListTourismViewController: UIViewController, UITableViewDataSource {
 }
 
 extension ListTourismViewController: UITableViewDelegate {
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let itemDetailCollection = self.storyboard?.instantiateViewController(withIdentifier: "ItemDetailViewController") as! ItemDetailViewController
         itemDetailCollection.touris = data[indexPath.row]
+//        rowNumber = indexPath.row
+        itemDetailCollection.itemDelegate = self
         navigationController?.pushViewController(itemDetailCollection, animated: true)
+    } 
+}
+
+extension ListTourismViewController: EditDetailDelegate {
+    func updateData(update: String) {
+        data[rowNumber].title = update
+        tourismTableView.reloadData()
     }
 }
+
