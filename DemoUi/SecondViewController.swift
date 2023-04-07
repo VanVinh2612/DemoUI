@@ -7,15 +7,30 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+//protocol TextDelegate: AnyObject {
+//    func secondText(_ input: String?)
+//}
 
+class SecondViewController: UIViewController {
+        
+    @IBOutlet private weak var secondTextField: UITextField!
+    
+//    weak var delegate: TextDelegate?
+    var receiveData: String?
+    var textData: ((String?) -> Void)?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        secondTextField?.text = receiveData
     }
     
-
+    @IBAction func didTapPop(_ sender: UIButton) {
+        textData?(secondTextField.text ?? "")
+//        delegate?.secondText(secondTextField.text ?? "")
+        navigationController?.popViewController(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

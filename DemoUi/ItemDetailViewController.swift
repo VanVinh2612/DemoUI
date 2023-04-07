@@ -9,21 +9,25 @@ import UIKit
 
 class ItemDetailViewController: UIViewController {
 
+    @IBOutlet weak var textLabel: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var textView: UITextView!
+    var touris: Tourism?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        imageView?.image = UIImage(named: touris?.imageName ?? "")
+        textLabel?.text = touris?.title
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func tapEdit(_ sender: UIButton) {
+        let editItemController = self.storyboard?.instantiateViewController(withIdentifier: "EditItemViewController") as! EditItemViewController
+        editItemController.textData = textLabel.text
+        editItemController.dataEdited = { newValue in
+            self.textLabel.text = newValue
+        }
+        navigationController?.pushViewController(editItemController, animated: true)
     }
-    */
-
 }
