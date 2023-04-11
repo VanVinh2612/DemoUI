@@ -15,6 +15,8 @@ class ListTourismViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tourismTableView.register(UINib(nibName: "TourismTableViewCell", bundle: nil), forCellReuseIdentifier: "tourismCell")
         tourismTableView.dataSource = self
         tourismTableView.delegate = self
 
@@ -29,8 +31,8 @@ extension ListTourismViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let tourism = data[indexPath.row]
-        let cell = tableView.dequeueReusableCell(withIdentifier: "TourismTableViewCell", for: indexPath) as! CustomTableViewCell
-        cell.label.text = tourism.title
+        let cell = tableView.dequeueReusableCell(withIdentifier: "tourismCell", for: indexPath) as! TourismTableViewCell
+        cell.titleLabel.text = tourism.title
         cell.iconImageView.image = UIImage(named: tourism.imageName)
         return cell
     }
