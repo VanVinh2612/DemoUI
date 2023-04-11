@@ -13,7 +13,7 @@ struct Tourism {
     let imageName: String
 }
 
-var data: [Tourism] = [
+var dataTourism: [Tourism] = [
     Tourism(id: 1, title: "Bán đảo Sơn Trà", imageName: "ban_dao_son_tra_img"),
     Tourism(id: 2, title: "Đảo Phú Quốc", imageName: "dao_phu_quoc_img"),
     Tourism(id: 3, title: "Du lịch Vịnh Hạ Long", imageName: "du_lich_vinh_Ha_Long_img"),
