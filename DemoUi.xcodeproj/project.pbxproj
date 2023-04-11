@@ -12,6 +12,8 @@
 		1F1EFC4B29DFB65700C05003 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EFC4A29DFB65700C05003 /* ItemDetailViewController.swift */; };
 		1F1EFC4D29DFBFA500C05003 /* Tourism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EFC4C29DFBFA500C05003 /* Tourism.swift */; };
 		1F1EFC4F29DFC95C00C05003 /* EditItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EFC4E29DFC95C00C05003 /* EditItemViewController.swift */; };
+		1F9024C429E50112005B80CB /* TourismTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9024C229E50112005B80CB /* TourismTableViewCell.swift */; };
+		1F9024C529E50112005B80CB /* TourismTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9024C329E50112005B80CB /* TourismTableViewCell.xib */; };
 		1FB97DCB29DEC018009ED47D /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB97DCA29DEC018009ED47D /* MovieCollectionViewCell.swift */; };
 		1FB97DCD29DEC0F7009ED47D /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB97DCC29DEC0F7009ED47D /* MovieViewController.swift */; };
 		1FB97DD129DEC5AC009ED47D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB97DD029DEC5AC009ED47D /* Movie.swift */; };
@@ -30,6 +32,8 @@
 		1F1EFC4A29DFB65700C05003 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
 		1F1EFC4C29DFBFA500C05003 /* Tourism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tourism.swift; sourceTree = "<group>"; };
 		1F1EFC4E29DFC95C00C05003 /* EditItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemViewController.swift; sourceTree = "<group>"; };
+		1F9024C229E50112005B80CB /* TourismTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourismTableViewCell.swift; sourceTree = "<group>"; };
+		1F9024C329E50112005B80CB /* TourismTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TourismTableViewCell.xib; sourceTree = "<group>"; };
 		1FB97DCA29DEC018009ED47D /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 		1FB97DCC29DEC0F7009ED47D /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		1FB97DD029DEC5AC009ED47D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 				1FB97DD029DEC5AC009ED47D /* Movie.swift */,
 				1F1EFC4C29DFBFA500C05003 /* Tourism.swift */,
 				1F1EFC4E29DFC95C00C05003 /* EditItemViewController.swift */,
+				1F9024C229E50112005B80CB /* TourismTableViewCell.swift */,
+				1F9024C329E50112005B80CB /* TourismTableViewCell.xib */,
 			);
 			path = DemoUi;
 			sourceTree = "<group>";
@@ -155,6 +161,7 @@
 				1FCF490B29DC191200A23134 /* LaunchScreen.storyboard in Resources */,
 				1FCF490829DC191200A23134 /* Assets.xcassets in Resources */,
 				1FCF490629DC191000A23134 /* Main.storyboard in Resources */,
+				1F9024C529E50112005B80CB /* TourismTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +174,7 @@
 			files = (
 				1F1EFC4B29DFB65700C05003 /* ItemDetailViewController.swift in Sources */,
 				1FCF491329DC1AB100A23134 /* SecondViewController.swift in Sources */,
+				1F9024C429E50112005B80CB /* TourismTableViewCell.swift in Sources */,
 				1F1EFC4D29DFBFA500C05003 /* Tourism.swift in Sources */,
 				1F14328229DE86D90032CE88 /* CustomTableViewCell.swift in Sources */,
 				1FB97DD129DEC5AC009ED47D /* Movie.swift in Sources */,
