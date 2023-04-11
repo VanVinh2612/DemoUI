@@ -29,14 +29,6 @@ class ViewController: UIViewController {
         }
         navigationController?.pushViewController(secondController, animated: true)
     }
-    //    @IBAction func senData(_ sender: Any) {
-//        present(SecondViewController(), animated: true)
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let secondController = self.storyboard!.instantiateViewController(withIdentifier: "second_controller") as! SecondViewController
-//        secondController.loadViewIfNeeded()
-//        secondController.setUp(firstName: textLabel.text ?? "default value")
-//        self.present(secondController, animated: true)
-//    }
     
 }
 

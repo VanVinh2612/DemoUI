@@ -7,27 +7,36 @@
 
 import UIKit
 
-class ItemDetailViewController: UIViewController {
+protocol EditDetailDelegate: AnyObject {
+    func updateData(update: String)
+}
 
-    @IBOutlet weak var textLabel: UILabel!
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var textView: UITextView!
+class ItemDetailViewController: UIViewController{
+
+    @IBOutlet weak var titleTextLabel: UILabel!
+    @IBOutlet weak var tourismImageView: UIImageView!
+    @IBOutlet weak var detailTextView: UITextView!
+    
     var touris: Tourism?
+    weak var itemDelegate: EditDetailDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        imageView?.image = UIImage(named: touris?.imageName ?? "")
-        textLabel?.text = touris?.title
+        tourismImageView?.image = UIImage(named: touris?.imageName ?? "")
+        titleTextLabel?.text = touris?.title
         
     }
     
     @IBAction func tapEdit(_ sender: UIButton) {
         let editItemController = self.storyboard?.instantiateViewController(withIdentifier: "EditItemViewController") as! EditItemViewController
-        editItemController.textData = textLabel.text
+        editItemController.textData = titleTextLabel.text
         editItemController.dataEdited = { newValue in
-            self.textLabel.text = newValue
+            self.titleTextLabel.text = newValue
+            self.itemDelegate?.updateData(update: self.titleTextLabel.text ?? "")
+            
         }
         navigationController?.pushViewController(editItemController, animated: true)
     }
+    
 }
