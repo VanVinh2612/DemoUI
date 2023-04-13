@@ -15,6 +15,7 @@
 		1F1EFC4F29DFC95C00C05003 /* EditItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EFC4E29DFC95C00C05003 /* EditItemViewController.swift */; };
 		1F8056F229E51D54000C1F56 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8056F029E51D54000C1F56 /* MovieTableViewCell.swift */; };
 		1F8056F329E51D54000C1F56 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F8056F129E51D54000C1F56 /* MovieTableViewCell.xib */; };
+		1F88682829E668DD0071418E /* NetWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88682729E668DD0071418E /* NetWorker.swift */; };
 		1F9024C429E50112005B80CB /* TourismTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9024C229E50112005B80CB /* TourismTableViewCell.swift */; };
 		1F9024C529E50112005B80CB /* TourismTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9024C329E50112005B80CB /* TourismTableViewCell.xib */; };
 		1FB97DCB29DEC018009ED47D /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB97DCA29DEC018009ED47D /* MovieCollectionViewCell.swift */; };
@@ -31,6 +32,12 @@
 		1FEA84E229E553D70093E495 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA84E029E553D70093E495 /* ImageTableViewCell.xib */; };
 		1FEA84E529E557F30093E495 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA84E329E557F30093E495 /* TextTableViewCell.swift */; };
 		1FEA84E629E557F30093E495 /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA84E429E557F30093E495 /* TextTableViewCell.xib */; };
+		1FEA84E829E654820093E495 /* UrlSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA84E729E654820093E495 /* UrlSessionViewController.swift */; };
+		1FEA84EA29E659F10093E495 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA84E929E659F10093E495 /* User.swift */; };
+		1FEA84ED29E65E310093E495 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA84EB29E65E310093E495 /* ProfileTableViewCell.swift */; };
+		1FEA84EE29E65E310093E495 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA84EC29E65E310093E495 /* ProfileTableViewCell.xib */; };
+		1FEA84F129E663600093E495 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA84EF29E663600093E495 /* DemoViewController.swift */; };
+		1FEA84F229E663600093E495 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA84F029E663600093E495 /* DemoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +49,7 @@
 		1F1EFC4E29DFC95C00C05003 /* EditItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemViewController.swift; sourceTree = "<group>"; };
 		1F8056F029E51D54000C1F56 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		1F8056F129E51D54000C1F56 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
+		1F88682729E668DD0071418E /* NetWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorker.swift; sourceTree = "<group>"; };
 		1F9024C229E50112005B80CB /* TourismTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourismTableViewCell.swift; sourceTree = "<group>"; };
 		1F9024C329E50112005B80CB /* TourismTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TourismTableViewCell.xib; sourceTree = "<group>"; };
 		1FB97DCA29DEC018009ED47D /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -60,6 +68,12 @@
 		1FEA84E029E553D70093E495 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
 		1FEA84E329E557F30093E495 /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
 		1FEA84E429E557F30093E495 /* TextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextTableViewCell.xib; sourceTree = "<group>"; };
+		1FEA84E729E654820093E495 /* UrlSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlSessionViewController.swift; sourceTree = "<group>"; };
+		1FEA84E929E659F10093E495 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1FEA84EB29E65E310093E495 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		1FEA84EC29E65E310093E495 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		1FEA84EF29E663600093E495 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		1FEA84F029E663600093E495 /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +87,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F88682429E668460071418E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1FEA84E929E659F10093E495 /* User.swift */,
+				1F1EFC4C29DFBFA500C05003 /* Tourism.swift */,
+				1FB97DD029DEC5AC009ED47D /* Movie.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1F88682629E668B40071418E /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				1F88682729E668DD0071418E /* NetWorker.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
 		1FCF48F229DC191000A23134 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +124,8 @@
 		1FCF48FD29DC191000A23134 /* DemoUi */ = {
 			isa = PBXGroup;
 			children = (
+				1F88682629E668B40071418E /* NetWork */,
+				1F88682429E668460071418E /* model */,
 				1FCF48FE29DC191000A23134 /* AppDelegate.swift */,
 				1FCF490029DC191000A23134 /* SceneDelegate.swift */,
 				1FCF490229DC191000A23134 /* ViewController.swift */,
@@ -106,8 +140,6 @@
 				1F14328329DEA16D0032CE88 /* ListTourismViewController.swift */,
 				1FB97DCA29DEC018009ED47D /* MovieCollectionViewCell.swift */,
 				1FB97DCC29DEC0F7009ED47D /* MovieViewController.swift */,
-				1FB97DD029DEC5AC009ED47D /* Movie.swift */,
-				1F1EFC4C29DFBFA500C05003 /* Tourism.swift */,
 				1F1EFC4E29DFC95C00C05003 /* EditItemViewController.swift */,
 				1F9024C229E50112005B80CB /* TourismTableViewCell.swift */,
 				1F9024C329E50112005B80CB /* TourismTableViewCell.xib */,
@@ -117,6 +149,11 @@
 				1FEA84E029E553D70093E495 /* ImageTableViewCell.xib */,
 				1FEA84E329E557F30093E495 /* TextTableViewCell.swift */,
 				1FEA84E429E557F30093E495 /* TextTableViewCell.xib */,
+				1FEA84E729E654820093E495 /* UrlSessionViewController.swift */,
+				1FEA84EB29E65E310093E495 /* ProfileTableViewCell.swift */,
+				1FEA84EC29E65E310093E495 /* ProfileTableViewCell.xib */,
+				1FEA84EF29E663600093E495 /* DemoViewController.swift */,
+				1FEA84F029E663600093E495 /* DemoViewController.xib */,
 			);
 			path = DemoUi;
 			sourceTree = "<group>";
@@ -183,7 +220,9 @@
 				1F8056F329E51D54000C1F56 /* MovieTableViewCell.xib in Resources */,
 				1FEA84E629E557F30093E495 /* TextTableViewCell.xib in Resources */,
 				1FCF490829DC191200A23134 /* Assets.xcassets in Resources */,
+				1FEA84F229E663600093E495 /* DemoViewController.xib in Resources */,
 				1FEA84E229E553D70093E495 /* ImageTableViewCell.xib in Resources */,
+				1FEA84EE29E65E310093E495 /* ProfileTableViewCell.xib in Resources */,
 				1FCF490629DC191000A23134 /* Main.storyboard in Resources */,
 				1F9024C529E50112005B80CB /* TourismTableViewCell.xib in Resources */,
 			);
@@ -207,12 +246,17 @@
 				1FB97DCD29DEC0F7009ED47D /* MovieViewController.swift in Sources */,
 				1FEA84E129E553D70093E495 /* ImageTableViewCell.swift in Sources */,
 				1F1EFC4F29DFC95C00C05003 /* EditItemViewController.swift in Sources */,
+				1F88682829E668DD0071418E /* NetWorker.swift in Sources */,
+				1FEA84E829E654820093E495 /* UrlSessionViewController.swift in Sources */,
 				1FCF490329DC191000A23134 /* ViewController.swift in Sources */,
+				1FEA84ED29E65E310093E495 /* ProfileTableViewCell.swift in Sources */,
 				1FB97DCB29DEC018009ED47D /* MovieCollectionViewCell.swift in Sources */,
 				1FEA84E529E557F30093E495 /* TextTableViewCell.swift in Sources */,
 				1F12C01429E55136009F6FE5 /* CustomViewController.swift in Sources */,
 				1FCF48FF29DC191000A23134 /* AppDelegate.swift in Sources */,
+				1FEA84F129E663600093E495 /* DemoViewController.swift in Sources */,
 				1FCF490129DC191000A23134 /* SceneDelegate.swift in Sources */,
+				1FEA84EA29E659F10093E495 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
