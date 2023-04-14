@@ -18,6 +18,7 @@ class UrlSessionViewController: UIViewController {
         super.viewDidLoad()
 //        print(fetchUser().count)
         profileTableView.dataSource = self
+        profileTableView.delegate = self
         profileTableView.register(ProfileTableViewCell.nib(), forCellReuseIdentifier: ProfileTableViewCell.identifies)
 //        print("Size: \(userData.count)")
         fetchUser()
@@ -45,10 +46,13 @@ extension UrlSessionViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let userCell = tableView.dequeueReusableCell(withIdentifier: ProfileTableViewCell.identifies, for: indexPath) as! ProfileTableViewCell
         userCell.setUp(with: userData[indexPath.row])
-//        userCell.firstNameLabel.text = userData[indexPath.row].first_name
-//        userCell.lastNameLabel.text = userData[indexPath.row].last_name
-//        userCell.ageLabel.text = String(userData[indexPath.row].age)
        
        return userCell
+    }
+}
+
+extension UrlSessionViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("ok")
     }
 }

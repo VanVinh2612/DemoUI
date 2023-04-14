@@ -10,9 +10,12 @@
 		1F12C01429E55136009F6FE5 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F12C01329E55136009F6FE5 /* CustomViewController.swift */; };
 		1F14328229DE86D90032CE88 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14328129DE86D90032CE88 /* CustomTableViewCell.swift */; };
 		1F14328429DEA16D0032CE88 /* ListTourismViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14328329DEA16D0032CE88 /* ListTourismViewController.swift */; };
+		1F1B8F4D29E7B27F00B51D3F /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B8F4C29E7B27F00B51D3F /* TextTableViewCell.xib */; };
 		1F1EFC4B29DFB65700C05003 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EFC4A29DFB65700C05003 /* ItemDetailViewController.swift */; };
 		1F1EFC4D29DFBFA500C05003 /* Tourism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EFC4C29DFBFA500C05003 /* Tourism.swift */; };
 		1F1EFC4F29DFC95C00C05003 /* EditItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EFC4E29DFC95C00C05003 /* EditItemViewController.swift */; };
+		1F24EAFF29E8F2E9008B4552 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F24EAFD29E8F2E9008B4552 /* ImageViewController.swift */; };
+		1F24EB0029E8F2E9008B4552 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F24EAFE29E8F2E9008B4552 /* ImageViewController.xib */; };
 		1F8056F229E51D54000C1F56 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8056F029E51D54000C1F56 /* MovieTableViewCell.swift */; };
 		1F8056F329E51D54000C1F56 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F8056F129E51D54000C1F56 /* MovieTableViewCell.xib */; };
 		1F88682829E668DD0071418E /* NetWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88682729E668DD0071418E /* NetWorker.swift */; };
@@ -31,7 +34,6 @@
 		1FEA84E129E553D70093E495 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA84DF29E553D70093E495 /* ImageTableViewCell.swift */; };
 		1FEA84E229E553D70093E495 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA84E029E553D70093E495 /* ImageTableViewCell.xib */; };
 		1FEA84E529E557F30093E495 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA84E329E557F30093E495 /* TextTableViewCell.swift */; };
-		1FEA84E629E557F30093E495 /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA84E429E557F30093E495 /* TextTableViewCell.xib */; };
 		1FEA84E829E654820093E495 /* UrlSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA84E729E654820093E495 /* UrlSessionViewController.swift */; };
 		1FEA84EA29E659F10093E495 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA84E929E659F10093E495 /* User.swift */; };
 		1FEA84ED29E65E310093E495 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA84EB29E65E310093E495 /* ProfileTableViewCell.swift */; };
@@ -44,9 +46,12 @@
 		1F12C01329E55136009F6FE5 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		1F14328129DE86D90032CE88 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		1F14328329DEA16D0032CE88 /* ListTourismViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTourismViewController.swift; sourceTree = "<group>"; };
+		1F1B8F4C29E7B27F00B51D3F /* TextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextTableViewCell.xib; sourceTree = "<group>"; };
 		1F1EFC4A29DFB65700C05003 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
 		1F1EFC4C29DFBFA500C05003 /* Tourism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tourism.swift; sourceTree = "<group>"; };
 		1F1EFC4E29DFC95C00C05003 /* EditItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemViewController.swift; sourceTree = "<group>"; };
+		1F24EAFD29E8F2E9008B4552 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		1F24EAFE29E8F2E9008B4552 /* ImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
 		1F8056F029E51D54000C1F56 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		1F8056F129E51D54000C1F56 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 		1F88682729E668DD0071418E /* NetWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorker.swift; sourceTree = "<group>"; };
@@ -67,7 +72,6 @@
 		1FEA84DF29E553D70093E495 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 		1FEA84E029E553D70093E495 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
 		1FEA84E329E557F30093E495 /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
-		1FEA84E429E557F30093E495 /* TextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextTableViewCell.xib; sourceTree = "<group>"; };
 		1FEA84E729E654820093E495 /* UrlSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlSessionViewController.swift; sourceTree = "<group>"; };
 		1FEA84E929E659F10093E495 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1FEA84EB29E65E310093E495 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
@@ -87,6 +91,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F1B8F4E29E7B53E00B51D3F /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				1FB97DCC29DEC0F7009ED47D /* MovieViewController.swift */,
+				1F8056F029E51D54000C1F56 /* MovieTableViewCell.swift */,
+				1F8056F129E51D54000C1F56 /* MovieTableViewCell.xib */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		1F1B8F4F29E7B5C400B51D3F /* Tourism */ = {
+			isa = PBXGroup;
+			children = (
+				1F14328329DEA16D0032CE88 /* ListTourismViewController.swift */,
+				1F1EFC4A29DFB65700C05003 /* ItemDetailViewController.swift */,
+				1F1EFC4E29DFC95C00C05003 /* EditItemViewController.swift */,
+				1F9024C229E50112005B80CB /* TourismTableViewCell.swift */,
+				1F9024C329E50112005B80CB /* TourismTableViewCell.xib */,
+			);
+			path = Tourism;
+			sourceTree = "<group>";
+		};
+		1F31192129E7B0B2003D0A51 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1FEA84E729E654820093E495 /* UrlSessionViewController.swift */,
+				1FEA84EB29E65E310093E495 /* ProfileTableViewCell.swift */,
+				1FEA84EC29E65E310093E495 /* ProfileTableViewCell.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1F31192229E7B0FC003D0A51 /* CustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1F12C01329E55136009F6FE5 /* CustomViewController.swift */,
+				1FEA84DF29E553D70093E495 /* ImageTableViewCell.swift */,
+				1FEA84E029E553D70093E495 /* ImageTableViewCell.xib */,
+				1FEA84E329E557F30093E495 /* TextTableViewCell.swift */,
+				1F1B8F4C29E7B27F00B51D3F /* TextTableViewCell.xib */,
+			);
+			path = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
 		1F88682429E668460071418E /* model */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,36 +172,26 @@
 		1FCF48FD29DC191000A23134 /* DemoUi */ = {
 			isa = PBXGroup;
 			children = (
-				1F88682629E668B40071418E /* NetWork */,
-				1F88682429E668460071418E /* model */,
 				1FCF48FE29DC191000A23134 /* AppDelegate.swift */,
-				1FCF490029DC191000A23134 /* SceneDelegate.swift */,
-				1FCF490229DC191000A23134 /* ViewController.swift */,
-				1FCF490429DC191000A23134 /* Main.storyboard */,
-				1F12C01329E55136009F6FE5 /* CustomViewController.swift */,
-				1F1EFC4A29DFB65700C05003 /* ItemDetailViewController.swift */,
-				1FCF491229DC1AB000A23134 /* SecondViewController.swift */,
 				1FCF490729DC191200A23134 /* Assets.xcassets */,
-				1FCF490929DC191200A23134 /* LaunchScreen.storyboard */,
-				1FCF490C29DC191200A23134 /* Info.plist */,
+				1F31192229E7B0FC003D0A51 /* CustomTableViewCell */,
 				1F14328129DE86D90032CE88 /* CustomTableViewCell.swift */,
-				1F14328329DEA16D0032CE88 /* ListTourismViewController.swift */,
-				1FB97DCA29DEC018009ED47D /* MovieCollectionViewCell.swift */,
-				1FB97DCC29DEC0F7009ED47D /* MovieViewController.swift */,
-				1F1EFC4E29DFC95C00C05003 /* EditItemViewController.swift */,
-				1F9024C229E50112005B80CB /* TourismTableViewCell.swift */,
-				1F9024C329E50112005B80CB /* TourismTableViewCell.xib */,
-				1F8056F029E51D54000C1F56 /* MovieTableViewCell.swift */,
-				1F8056F129E51D54000C1F56 /* MovieTableViewCell.xib */,
-				1FEA84DF29E553D70093E495 /* ImageTableViewCell.swift */,
-				1FEA84E029E553D70093E495 /* ImageTableViewCell.xib */,
-				1FEA84E329E557F30093E495 /* TextTableViewCell.swift */,
-				1FEA84E429E557F30093E495 /* TextTableViewCell.xib */,
-				1FEA84E729E654820093E495 /* UrlSessionViewController.swift */,
-				1FEA84EB29E65E310093E495 /* ProfileTableViewCell.swift */,
-				1FEA84EC29E65E310093E495 /* ProfileTableViewCell.xib */,
 				1FEA84EF29E663600093E495 /* DemoViewController.swift */,
 				1FEA84F029E663600093E495 /* DemoViewController.xib */,
+				1FCF490C29DC191200A23134 /* Info.plist */,
+				1FCF490929DC191200A23134 /* LaunchScreen.storyboard */,
+				1FCF490429DC191000A23134 /* Main.storyboard */,
+				1F88682429E668460071418E /* model */,
+				1F1B8F4E29E7B53E00B51D3F /* Movie */,
+				1FB97DCA29DEC018009ED47D /* MovieCollectionViewCell.swift */,
+				1F88682629E668B40071418E /* NetWork */,
+				1F31192129E7B0B2003D0A51 /* Profile */,
+				1FCF490029DC191000A23134 /* SceneDelegate.swift */,
+				1FCF491229DC1AB000A23134 /* SecondViewController.swift */,
+				1F1B8F4F29E7B5C400B51D3F /* Tourism */,
+				1FCF490229DC191000A23134 /* ViewController.swift */,
+				1F24EAFD29E8F2E9008B4552 /* ImageViewController.swift */,
+				1F24EAFE29E8F2E9008B4552 /* ImageViewController.xib */,
 			);
 			path = DemoUi;
 			sourceTree = "<group>";
@@ -216,15 +254,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F24EB0029E8F2E9008B4552 /* ImageViewController.xib in Resources */,
 				1FCF490B29DC191200A23134 /* LaunchScreen.storyboard in Resources */,
 				1F8056F329E51D54000C1F56 /* MovieTableViewCell.xib in Resources */,
-				1FEA84E629E557F30093E495 /* TextTableViewCell.xib in Resources */,
 				1FCF490829DC191200A23134 /* Assets.xcassets in Resources */,
 				1FEA84F229E663600093E495 /* DemoViewController.xib in Resources */,
 				1FEA84E229E553D70093E495 /* ImageTableViewCell.xib in Resources */,
 				1FEA84EE29E65E310093E495 /* ProfileTableViewCell.xib in Resources */,
 				1FCF490629DC191000A23134 /* Main.storyboard in Resources */,
 				1F9024C529E50112005B80CB /* TourismTableViewCell.xib in Resources */,
+				1F1B8F4D29E7B27F00B51D3F /* TextTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +280,7 @@
 				1F9024C429E50112005B80CB /* TourismTableViewCell.swift in Sources */,
 				1F1EFC4D29DFBFA500C05003 /* Tourism.swift in Sources */,
 				1F14328229DE86D90032CE88 /* CustomTableViewCell.swift in Sources */,
+				1F24EAFF29E8F2E9008B4552 /* ImageViewController.swift in Sources */,
 				1FB97DD129DEC5AC009ED47D /* Movie.swift in Sources */,
 				1F14328429DEA16D0032CE88 /* ListTourismViewController.swift in Sources */,
 				1FB97DCD29DEC0F7009ED47D /* MovieViewController.swift in Sources */,

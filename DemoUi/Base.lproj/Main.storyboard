@@ -291,6 +291,21 @@
                                     <action selector="didTapPop:" destination="Nfp-jg-a3j" eventType="touchUpInside" id="OIm-dT-Ykx"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pH-o3-6nu">
+                                <rect key="frame" x="157" y="296.5" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="4yq-M4-R0b"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="fDH-Sg-wBC"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Next">
+                                    <color key="baseForegroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                    <color key="baseBackgroundColor" systemColor="systemTealColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tapNextPage:" destination="Nfp-jg-a3j" eventType="touchUpInside" id="MNB-OM-CCO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EDF-h6-vWk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -298,7 +313,9 @@
                             <constraint firstItem="w5R-4q-g7o" firstAttribute="top" secondItem="EDF-h6-vWk" secondAttribute="top" constant="100" id="JLa-wM-3BS"/>
                             <constraint firstItem="EDF-h6-vWk" firstAttribute="trailing" secondItem="w5R-4q-g7o" secondAttribute="trailing" constant="50" id="MLk-Hu-lsv"/>
                             <constraint firstItem="w5R-4q-g7o" firstAttribute="leading" secondItem="EDF-h6-vWk" secondAttribute="leading" constant="50" id="Qe3-NQ-4Cr"/>
+                            <constraint firstItem="3pH-o3-6nu" firstAttribute="top" secondItem="mbB-HC-Ian" secondAttribute="bottom" constant="50" id="T3p-qm-xUr"/>
                             <constraint firstItem="EDF-h6-vWk" firstAttribute="trailing" secondItem="mbB-HC-Ian" secondAttribute="trailing" constant="50" id="icL-Fw-FoA"/>
+                            <constraint firstItem="3pH-o3-6nu" firstAttribute="centerX" secondItem="9ay-sg-r8N" secondAttribute="centerX" id="me0-sG-mSC"/>
                             <constraint firstItem="mbB-HC-Ian" firstAttribute="leading" secondItem="EDF-h6-vWk" secondAttribute="leading" constant="50" id="s8H-CF-KyN"/>
                             <constraint firstItem="mbB-HC-Ian" firstAttribute="top" secondItem="w5R-4q-g7o" secondAttribute="bottom" constant="30" id="zIc-Jc-jpT"/>
                         </constraints>
@@ -310,7 +327,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xud-TU-ojp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="948" y="1404"/>
+            <point key="canvasLocation" x="947.82608695652186" y="1403.5714285714284"/>
         </scene>
         <!--List Tourism View Controller-->
         <scene sceneID="w6r-rR-1KO">
@@ -502,6 +519,12 @@
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
