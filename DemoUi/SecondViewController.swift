@@ -31,10 +31,6 @@ class SecondViewController: UIViewController {
         navigationController?.popViewController(animated: true)
     }
     
-    @IBAction func tapNextPage(_ sender: UIButton) {
-        let imageViewController = UIViewController(nibName: "ImageViewController", bundle: nil)
-        navigationController?.pushViewController(imageViewController, animated: true)
-    }
     /*
     // MARK: - Navigation
 

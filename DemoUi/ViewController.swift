@@ -30,5 +30,13 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(secondController, animated: true)
     }
     
+    @IBAction func tapNextPage(_ sender: UIButton) {
+        let imageViewController = ImageViewController()
+        navigationController?.pushViewController(imageViewController, animated: true)
+//        imageViewController.hidesBottomBarWhenPushed = true
+    }
+    
+    @IBAction func tapSignUp(_ sender: UIButton) {
+    }
 }
 

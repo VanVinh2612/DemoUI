@@ -31,7 +31,10 @@ class UrlSessionViewController: UIViewController {
                 print("Error")
                 return
             }
-            self.userData = user!
+            guard let user = user else {
+                return
+            }
+            self.userData = user
             self.profileTableView.reloadData()
         })
     }
@@ -45,10 +48,16 @@ extension UrlSessionViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let userCell = tableView.dequeueReusableCell(withIdentifier: ProfileTableViewCell.identifies, for: indexPath) as! ProfileTableViewCell
+        
+        // tìm hiểu indexPath, dequeueReusableCell
         userCell.setUp(with: userData[indexPath.row])
        
        return userCell
     }
+//    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+//        <#code#>
+//    }
+    
 }
 
 extension UrlSessionViewController: UITableViewDelegate {
