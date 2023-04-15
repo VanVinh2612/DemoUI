@@ -15,6 +15,7 @@ class MovieViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        moviesCollectionView.register(CustomMovieCollectionViewCell.nib(), forCellWithReuseIdentifier: CustomMovieCollectionViewCell.identifier)
         moviesCollectionView.dataSource = self
         moviesCollectionView.delegate = self
         moviesCollectionView.collectionViewLayout = UICollectionViewFlowLayout()
@@ -29,7 +30,7 @@ extension MovieViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MovieCollectionViewCell", for: indexPath) as! MovieCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CustomMovieCollectionViewCell.identifier, for: indexPath) as! CustomMovieCollectionViewCell
         cell.setUp(with: movies[indexPath.row])
         return cell
     }
@@ -37,8 +38,9 @@ extension MovieViewController: UICollectionViewDataSource {
 extension MovieViewController: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 200, height: 300)
+        return CGSize(width: UIScreen.main.bounds.width/2 - 10, height: 350)
     }
+
 }
 
 extension MovieViewController: UICollectionViewDelegate {
